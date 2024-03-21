@@ -1,0 +1,339 @@
+body {
+    direction: ltr;
+}
+
+.header {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px;
+    border-color: blueviolet;
+}
+
+.tzor_kesherr {
+    padding-right: 20px;
+}
+
+.tzor_kesher {
+    padding-right: 20px;
+}
+
+#look_for_input {
+
+    border-radius: 25px;
+    width: 85%;
+    background-color: rgb(237, 237, 237);
+    height: 40px;
+    direction: rtl;
+    flex-direction: row;
+    padding-right: 30px;
+
+
+}
+#serv{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    animation: servtop 5s infinite;
+}
+
+
+.logotafrit {
+    height: 50px;
+    padding-left: 30px;
+}
+
+#look_for_input:hover {
+    background-color: rgb(209, 210, 210);
+}
+
+.look_for {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 80%;
+    height: 40px;
+
+}
+
+.logo_look_for {
+    margin-right: 25px;
+    height: 20px;
+    width: 20px;
+}
+
+#lookp {
+    justify-content: end;
+}
+
+.TAFRIT {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;  
+      padding: 14px;
+    padding-right: 30px;
+    padding-top: 5px;
+
+}
+#flex-nav{
+    display: flex;
+}
+.links {
+    margin-left: 15px;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+#h2 {
+    text-align: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.room {
+    height: 80%;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px 0 0 10px;
+
+}
+
+li {
+
+   
+   margin-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+/* Change the link color to #111 (black) on hover */
+.flex_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%
+}
+
+.sale_img {
+    width: 70vh;
+    padding: 5px 5px;
+}
+
+.img {
+    width: 35vh;
+    padding: 5px 5px;
+}
+
+.firstimg {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerimg {
+    width: 90%;
+}
+
+#acount {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dot {
+    font-size: smaller;
+    text-align: center;
+    left: 3px;
+    top: 9px;
+    height: 15px;
+    width: 15px;
+    background-color: #bcbcbc;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+#h2 a::after{
+    content:'!';
+}
+.relative {
+    position: relative;
+}
+
+#enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-color: rgb(213, 213, 213);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enter:hover {
+    background-color: rgb(49, 48, 48);
+}
+
+#zorbody {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#flex_input {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#pharagraf {
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.input {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    direction: rtl;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.input:focus {
+
+    border: none;
+}
+
+#pha {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#zor {
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 5vh;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 250px;
+    border: 3px solid rgb(214, 214, 214);
+    padding: 10px
+}
+
+#sisma {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+#zor:hover {
+    border-color: black;
+}
+
+.menu  {
+    height: 55px;
+  
+}
+#h2 a:after{
+    content:'!';
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+.footer-wrapper {
+    display: flex;
+    direction: rtl;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    direction: rtl;
+    display: none;
+    position: absolute;
+right: 0%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#serv{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    animation: servtop 5s infinite;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.footer-ul:nth-child(1)
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 760px) {
+    .look_for,
+    .TAFRIT {
+        display: none;
+    }
+    li{
+        font-size: 12px;
+    }
+
+    .header {
+        justify-content: space-around;
+    }
+    .footer-wrapper{
+        width: 400px;
+    }
+}
